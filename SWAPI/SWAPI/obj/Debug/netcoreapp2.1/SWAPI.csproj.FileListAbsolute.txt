@@ -12,3 +12,6 @@ C:\Users\Felipe\Documents\Projetos Particulares\SWAPI\SWAPI\SWAPI\obj\Debug\netc
 C:\Users\Felipe\Documents\Projetos Particulares\SWAPI\SWAPI\SWAPI\obj\Debug\netcoreapp2.1\SWAPI.RazorTargetAssemblyInfo.cache
 C:\Users\Felipe\Documents\Projetos Particulares\SWAPI\SWAPI\SWAPI\obj\Debug\netcoreapp2.1\SWAPI.dll
 C:\Users\Felipe\Documents\Projetos Particulares\SWAPI\SWAPI\SWAPI\obj\Debug\netcoreapp2.1\SWAPI.pdb
+C:\Users\Felipe\Documents\Projetos Particulares\SWAPI\SWAPI\SWAPI\bin\Debug\netcoreapp2.1\SWAPI.Domain.dll
+C:\Users\Felipe\Documents\Projetos Particulares\SWAPI\SWAPI\SWAPI\bin\Debug\netcoreapp2.1\SWAPI.Domain.pdb
+C:\Users\Felipe\Documents\Projetos Particulares\SWAPI\SWAPI\SWAPI\obj\Debug\netcoreapp2.1\SWAPI.csproj.CopyComplete
