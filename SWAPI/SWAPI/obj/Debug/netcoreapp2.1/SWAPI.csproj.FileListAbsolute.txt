@@ -1,0 +1,14 @@
+C:\Users\Felipe\Documents\Projetos Particulares\SWAPI\SWAPI\SWAPI\bin\Debug\netcoreapp2.1\SWAPI.deps.json
+C:\Users\Felipe\Documents\Projetos Particulares\SWAPI\SWAPI\SWAPI\bin\Debug\netcoreapp2.1\SWAPI.runtimeconfig.json
+C:\Users\Felipe\Documents\Projetos Particulares\SWAPI\SWAPI\SWAPI\bin\Debug\netcoreapp2.1\SWAPI.runtimeconfig.dev.json
+C:\Users\Felipe\Documents\Projetos Particulares\SWAPI\SWAPI\SWAPI\bin\Debug\netcoreapp2.1\SWAPI.dll
+C:\Users\Felipe\Documents\Projetos Particulares\SWAPI\SWAPI\SWAPI\bin\Debug\netcoreapp2.1\SWAPI.pdb
+C:\Users\Felipe\Documents\Projetos Particulares\SWAPI\SWAPI\SWAPI\obj\Debug\netcoreapp2.1\SWAPI.csprojAssemblyReference.cache
+C:\Users\Felipe\Documents\Projetos Particulares\SWAPI\SWAPI\SWAPI\obj\Debug\netcoreapp2.1\SWAPI.csproj.CoreCompileInputs.cache
+C:\Users\Felipe\Documents\Projetos Particulares\SWAPI\SWAPI\SWAPI\obj\Debug\netcoreapp2.1\SWAPI.RazorAssemblyInfo.cache
+C:\Users\Felipe\Documents\Projetos Particulares\SWAPI\SWAPI\SWAPI\obj\Debug\netcoreapp2.1\SWAPI.RazorAssemblyInfo.cs
+C:\Users\Felipe\Documents\Projetos Particulares\SWAPI\SWAPI\SWAPI\obj\Debug\netcoreapp2.1\SWAPI.AssemblyInfoInputs.cache
+C:\Users\Felipe\Documents\Projetos Particulares\SWAPI\SWAPI\SWAPI\obj\Debug\netcoreapp2.1\SWAPI.AssemblyInfo.cs
+C:\Users\Felipe\Documents\Projetos Particulares\SWAPI\SWAPI\SWAPI\obj\Debug\netcoreapp2.1\SWAPI.RazorTargetAssemblyInfo.cache
+C:\Users\Felipe\Documents\Projetos Particulares\SWAPI\SWAPI\SWAPI\obj\Debug\netcoreapp2.1\SWAPI.dll
+C:\Users\Felipe\Documents\Projetos Particulares\SWAPI\SWAPI\SWAPI\obj\Debug\netcoreapp2.1\SWAPI.pdb
