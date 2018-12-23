@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.1": {
+      "AutoMapper/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CSharp": "4.5.0",
+          "System.Reflection.Emit": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/AutoMapper.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/AutoMapper.dll": {}
+        }
+      },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
         "type": "package",
         "dependencies": {
@@ -3013,6 +3026,32 @@
           }
         }
       },
+      "SimpleInjector/4.4.2": {
+        "type": "package",
+        "dependencies": {
+          "System.ComponentModel": "4.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/SimpleInjector.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SimpleInjector.dll": {}
+        }
+      },
+      "SimpleInjector.Integration.AspNetCore/4.4.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Hosting.Abstractions": "2.0.0",
+          "Microsoft.AspNetCore.Http.Abstractions": "2.0.0",
+          "SimpleInjector": "4.4.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/SimpleInjector.Integration.AspNetCore.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SimpleInjector.Integration.AspNetCore.dll": {}
+        }
+      },
       "System.AppContext/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -3108,6 +3147,18 @@
         },
         "runtime": {
           "lib/netstandard1.3/System.Collections.Specialized.dll": {}
+        }
+      },
+      "System.ComponentModel/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime": "4.1.0"
+        },
+        "compile": {
+          "ref/netstandard1.0/System.ComponentModel.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.ComponentModel.dll": {}
         }
       },
       "System.ComponentModel.Annotations/4.5.0": {
@@ -4616,6 +4667,20 @@
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
       },
+      "SWAPI.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "AutoMapper": "8.0.0",
+          "SWAPI.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SWAPI.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SWAPI.Application.dll": {}
+        }
+      },
       "SWAPI.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
@@ -4625,10 +4690,40 @@
         "runtime": {
           "bin/placeholder/SWAPI.Domain.dll": {}
         }
+      },
+      "SWAPI.Infra.Cross.IoC/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "SWAPI.Application": "1.0.0",
+          "SimpleInjector.Integration.AspNetCore": "4.4.2"
+        },
+        "compile": {
+          "bin/placeholder/SWAPI.Infra.Cross.IoC.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SWAPI.Infra.Cross.IoC.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "AutoMapper/8.0.0": {
+      "sha512": "kcbje0Y71XkvzPn8k6OROZGOn2SKaWimon3Bu1WUTVoV5GTJVym+k+zQuKApyyFVRfk7bisumj/qUX4xIIXS+Q==",
+      "type": "package",
+      "path": "automapper/8.0.0",
+      "files": [
+        ".signature.p7s",
+        "automapper.8.0.0.nupkg.sha512",
+        "automapper.nuspec",
+        "lib/net461/AutoMapper.dll",
+        "lib/net461/AutoMapper.pdb",
+        "lib/net461/AutoMapper.xml",
+        "lib/netstandard2.0/AutoMapper.dll",
+        "lib/netstandard2.0/AutoMapper.pdb",
+        "lib/netstandard2.0/AutoMapper.xml"
+      ]
+    },
     "Microsoft.AspNet.WebApi.Client/5.2.6": {
       "sha512": "rMDlyePoxggkmN/qgha1+BR2Uy+dOr38xKCQOPfVNKGY07R2nYJGMTKJFE1XFgwD70RYUNazf2fqutjJF18XgQ==",
       "type": "package",
@@ -7797,6 +7892,37 @@
         "version.txt"
       ]
     },
+    "SimpleInjector/4.4.2": {
+      "sha512": "lqf0X5yJ4IYuU9UJkrFepewTfh2gNG3jvjSjN1Pj9GrHeqP5IkptId+/bxSthruvSBrWErfx34Q68NjvJq4X6w==",
+      "type": "package",
+      "path": "simpleinjector/4.4.2",
+      "files": [
+        "lib/net40/SimpleInjector.dll",
+        "lib/net40/SimpleInjector.xml",
+        "lib/net45/SimpleInjector.dll",
+        "lib/net45/SimpleInjector.xml",
+        "lib/netstandard1.0/SimpleInjector.dll",
+        "lib/netstandard1.0/SimpleInjector.xml",
+        "lib/netstandard1.3/SimpleInjector.dll",
+        "lib/netstandard1.3/SimpleInjector.xml",
+        "lib/netstandard2.0/SimpleInjector.dll",
+        "lib/netstandard2.0/SimpleInjector.xml",
+        "simpleinjector.4.4.2.nupkg.sha512",
+        "simpleinjector.nuspec"
+      ]
+    },
+    "SimpleInjector.Integration.AspNetCore/4.4.2": {
+      "sha512": "nGR3nZDRQlYzX210q9Pnr7VUn7fG6tXouIfSAdCYcbpnZxwXLgvcrJQUNhHCWmRX+xwkqhcr5j/L3kUcKyBxLg==",
+      "type": "package",
+      "path": "simpleinjector.integration.aspnetcore/4.4.2",
+      "files": [
+        ".signature.p7s",
+        "lib/netstandard2.0/SimpleInjector.Integration.AspNetCore.dll",
+        "lib/netstandard2.0/SimpleInjector.Integration.AspNetCore.xml",
+        "simpleinjector.integration.aspnetcore.4.4.2.nupkg.sha512",
+        "simpleinjector.integration.aspnetcore.nuspec"
+      ]
+    },
     "System.AppContext/4.3.0": {
       "sha512": "fKC+rmaLfeIzUhagxY17Q9siv/sPrjjKcfNg1Ic8IlQkZLipo8ljcaZQu4VtI4Jqbzjc2VTjzGLF6WmsRXAEgA==",
       "type": "package",
@@ -8104,6 +8230,63 @@
         "ref/xamarinwatchos10/_._",
         "system.collections.specialized.4.3.0.nupkg.sha512",
         "system.collections.specialized.nuspec"
+      ]
+    },
+    "System.ComponentModel/4.0.1": {
+      "sha512": "oBZFnm7seFiVfugsIyOvQCWobNZs7FzqDV/B7tx20Ep/l3UUFCPDkdTnCNaJZTU27zjeODmy2C/cP60u3D4c9w==",
+      "type": "package",
+      "path": "system.componentmodel/4.0.1",
+      "files": [
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/netcore50/System.ComponentModel.dll",
+        "lib/netstandard1.3/System.ComponentModel.dll",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcore50/System.ComponentModel.dll",
+        "ref/netcore50/System.ComponentModel.xml",
+        "ref/netcore50/de/System.ComponentModel.xml",
+        "ref/netcore50/es/System.ComponentModel.xml",
+        "ref/netcore50/fr/System.ComponentModel.xml",
+        "ref/netcore50/it/System.ComponentModel.xml",
+        "ref/netcore50/ja/System.ComponentModel.xml",
+        "ref/netcore50/ko/System.ComponentModel.xml",
+        "ref/netcore50/ru/System.ComponentModel.xml",
+        "ref/netcore50/zh-hans/System.ComponentModel.xml",
+        "ref/netcore50/zh-hant/System.ComponentModel.xml",
+        "ref/netstandard1.0/System.ComponentModel.dll",
+        "ref/netstandard1.0/System.ComponentModel.xml",
+        "ref/netstandard1.0/de/System.ComponentModel.xml",
+        "ref/netstandard1.0/es/System.ComponentModel.xml",
+        "ref/netstandard1.0/fr/System.ComponentModel.xml",
+        "ref/netstandard1.0/it/System.ComponentModel.xml",
+        "ref/netstandard1.0/ja/System.ComponentModel.xml",
+        "ref/netstandard1.0/ko/System.ComponentModel.xml",
+        "ref/netstandard1.0/ru/System.ComponentModel.xml",
+        "ref/netstandard1.0/zh-hans/System.ComponentModel.xml",
+        "ref/netstandard1.0/zh-hant/System.ComponentModel.xml",
+        "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.componentmodel.4.0.1.nupkg.sha512",
+        "system.componentmodel.nuspec"
       ]
     },
     "System.ComponentModel.Annotations/4.5.0": {
@@ -12219,10 +12402,20 @@
         "system.xml.xpath.xdocument.nuspec"
       ]
     },
+    "SWAPI.Application/1.0.0": {
+      "type": "project",
+      "path": "../SWAPI.Application/SWAPI.Application.csproj",
+      "msbuildProject": "../SWAPI.Application/SWAPI.Application.csproj"
+    },
     "SWAPI.Domain/1.0.0": {
       "type": "project",
       "path": "../SWAPI.Domain/SWAPI.Domain.csproj",
       "msbuildProject": "../SWAPI.Domain/SWAPI.Domain.csproj"
+    },
+    "SWAPI.Infra.Cross.IoC/1.0.0": {
+      "type": "project",
+      "path": "../SWAPI.Infra.Cross.IoC/SWAPI.Infra.Cross.IoC.csproj",
+      "msbuildProject": "../SWAPI.Infra.Cross.IoC/SWAPI.Infra.Cross.IoC.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -12231,7 +12424,10 @@
       "Microsoft.AspNetCore.Razor.Design >= 2.1.2",
       "Microsoft.NETCore.App >= 2.1.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.1.1",
-      "SWAPI.Domain >= 1.0.0"
+      "SWAPI.Application >= 1.0.0",
+      "SWAPI.Domain >= 1.0.0",
+      "SWAPI.Infra.Cross.IoC >= 1.0.0",
+      "SimpleInjector.Integration.AspNetCore >= 4.4.2"
     ]
   },
   "packageFolders": {
@@ -12241,9 +12437,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Felipe\\Documents\\Projetos Particulares\\SWAPI\\SWAPI\\SWAPI\\SWAPI.csproj",
-      "projectName": "SWAPI",
-      "projectPath": "C:\\Users\\Felipe\\Documents\\Projetos Particulares\\SWAPI\\SWAPI\\SWAPI\\SWAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Felipe\\Documents\\Projetos Particulares\\SWAPI\\SWAPI\\SWAPI\\SWAPI.API.csproj",
+      "projectName": "SWAPI.API",
+      "projectPath": "C:\\Users\\Felipe\\Documents\\Projetos Particulares\\SWAPI\\SWAPI\\SWAPI\\SWAPI.API.csproj",
       "packagesPath": "C:\\Users\\Felipe\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Felipe\\Documents\\Projetos Particulares\\SWAPI\\SWAPI\\SWAPI\\obj\\",
       "projectStyle": "PackageReference",
@@ -12264,8 +12460,14 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
+            "C:\\Users\\Felipe\\Documents\\Projetos Particulares\\SWAPI\\SWAPI\\SWAPI.Application\\SWAPI.Application.csproj": {
+              "projectPath": "C:\\Users\\Felipe\\Documents\\Projetos Particulares\\SWAPI\\SWAPI\\SWAPI.Application\\SWAPI.Application.csproj"
+            },
             "C:\\Users\\Felipe\\Documents\\Projetos Particulares\\SWAPI\\SWAPI\\SWAPI.Domain\\SWAPI.Domain.csproj": {
               "projectPath": "C:\\Users\\Felipe\\Documents\\Projetos Particulares\\SWAPI\\SWAPI\\SWAPI.Domain\\SWAPI.Domain.csproj"
+            },
+            "C:\\Users\\Felipe\\Documents\\Projetos Particulares\\SWAPI\\SWAPI\\SWAPI.Infra.Cross.IoC\\SWAPI.Infra.Cross.IoC.csproj": {
+              "projectPath": "C:\\Users\\Felipe\\Documents\\Projetos Particulares\\SWAPI\\SWAPI\\SWAPI.Infra.Cross.IoC\\SWAPI.Infra.Cross.IoC.csproj"
             }
           }
         }
@@ -12298,6 +12500,10 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
             "version": "[2.1.1, )"
+          },
+          "SimpleInjector.Integration.AspNetCore": {
+            "target": "Package",
+            "version": "[4.4.2, )"
           }
         },
         "imports": [

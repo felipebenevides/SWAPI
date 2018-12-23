@@ -1,0 +1,16 @@
+C:\Users\Felipe\Documents\Projetos Particulares\SWAPI\SWAPI\SWAPI.Infra.Cross.IoC\bin\Debug\netcoreapp2.1\SWAPI.Infra.Cross.IoC.deps.json
+C:\Users\Felipe\Documents\Projetos Particulares\SWAPI\SWAPI\SWAPI.Infra.Cross.IoC\bin\Debug\netcoreapp2.1\SWAPI.Infra.Cross.IoC.dll
+C:\Users\Felipe\Documents\Projetos Particulares\SWAPI\SWAPI\SWAPI.Infra.Cross.IoC\bin\Debug\netcoreapp2.1\SWAPI.Infra.Cross.IoC.pdb
+C:\Users\Felipe\Documents\Projetos Particulares\SWAPI\SWAPI\SWAPI.Infra.Cross.IoC\bin\Debug\netcoreapp2.1\SWAPI.Application.dll
+C:\Users\Felipe\Documents\Projetos Particulares\SWAPI\SWAPI\SWAPI.Infra.Cross.IoC\bin\Debug\netcoreapp2.1\SWAPI.Domain.dll
+C:\Users\Felipe\Documents\Projetos Particulares\SWAPI\SWAPI\SWAPI.Infra.Cross.IoC\bin\Debug\netcoreapp2.1\Newtonsoft.Json.dll
+C:\Users\Felipe\Documents\Projetos Particulares\SWAPI\SWAPI\SWAPI.Infra.Cross.IoC\bin\Debug\netcoreapp2.1\SWAPI.Application.pdb
+C:\Users\Felipe\Documents\Projetos Particulares\SWAPI\SWAPI\SWAPI.Infra.Cross.IoC\bin\Debug\netcoreapp2.1\SWAPI.Domain.pdb
+C:\Users\Felipe\Documents\Projetos Particulares\SWAPI\SWAPI\SWAPI.Infra.Cross.IoC\bin\Debug\netcoreapp2.1\Newtonsoft.Json.xml
+C:\Users\Felipe\Documents\Projetos Particulares\SWAPI\SWAPI\SWAPI.Infra.Cross.IoC\obj\Debug\netcoreapp2.1\SWAPI.Infra.Cross.IoC.csprojAssemblyReference.cache
+C:\Users\Felipe\Documents\Projetos Particulares\SWAPI\SWAPI\SWAPI.Infra.Cross.IoC\obj\Debug\netcoreapp2.1\SWAPI.Infra.Cross.IoC.csproj.CoreCompileInputs.cache
+C:\Users\Felipe\Documents\Projetos Particulares\SWAPI\SWAPI\SWAPI.Infra.Cross.IoC\obj\Debug\netcoreapp2.1\SWAPI.Infra.Cross.IoC.AssemblyInfoInputs.cache
+C:\Users\Felipe\Documents\Projetos Particulares\SWAPI\SWAPI\SWAPI.Infra.Cross.IoC\obj\Debug\netcoreapp2.1\SWAPI.Infra.Cross.IoC.AssemblyInfo.cs
+C:\Users\Felipe\Documents\Projetos Particulares\SWAPI\SWAPI\SWAPI.Infra.Cross.IoC\obj\Debug\netcoreapp2.1\SWAPI.Infra.Cross.IoC.csproj.CopyComplete
+C:\Users\Felipe\Documents\Projetos Particulares\SWAPI\SWAPI\SWAPI.Infra.Cross.IoC\obj\Debug\netcoreapp2.1\SWAPI.Infra.Cross.IoC.dll
+C:\Users\Felipe\Documents\Projetos Particulares\SWAPI\SWAPI\SWAPI.Infra.Cross.IoC\obj\Debug\netcoreapp2.1\SWAPI.Infra.Cross.IoC.pdb

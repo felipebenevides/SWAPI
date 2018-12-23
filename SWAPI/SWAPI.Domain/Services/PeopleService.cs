@@ -12,6 +12,11 @@ namespace SWAPI.Domain.Services
 {
     public class PeopleService : IPeopleService
     {
+        public PeopleService()
+        {
+
+        }
+
         public void Alterar(People entity)
         {
             throw new NotImplementedException();

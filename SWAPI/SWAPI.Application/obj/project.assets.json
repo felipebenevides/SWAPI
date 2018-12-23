@@ -328,6 +328,16 @@
         "compile": {
           "ref/netstandard1.3/System.Threading.Tasks.dll": {}
         }
+      },
+      "SWAPI.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "compile": {
+          "bin/placeholder/SWAPI.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SWAPI.Domain.dll": {}
+        }
       }
     }
   },
@@ -1389,12 +1399,18 @@
         "system.threading.tasks.4.3.0.nupkg.sha512",
         "system.threading.tasks.nuspec"
       ]
+    },
+    "SWAPI.Domain/1.0.0": {
+      "type": "project",
+      "path": "../SWAPI.Domain/SWAPI.Domain.csproj",
+      "msbuildProject": "../SWAPI.Domain/SWAPI.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "AutoMapper >= 8.0.0",
-      "Microsoft.NETCore.App >= 2.1.0"
+      "Microsoft.NETCore.App >= 2.1.0",
+      "SWAPI.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1426,7 +1442,11 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Felipe\\Documents\\Projetos Particulares\\SWAPI\\SWAPI\\SWAPI.Domain\\SWAPI.Domain.csproj": {
+              "projectPath": "C:\\Users\\Felipe\\Documents\\Projetos Particulares\\SWAPI\\SWAPI\\SWAPI.Domain\\SWAPI.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

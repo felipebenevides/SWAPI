@@ -50,4 +50,4 @@ namespace SWAPI.Application.ViewModels
         public List<PeopleViewModel> results { get; set; }
     }
 }
-}
+

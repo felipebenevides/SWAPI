@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using SWAPI.Application.Services;
+using SWAPI.Application.ViewModels;
 using SWAPI.Domain.Interfaces.Service;
 
 namespace SWAPI.Controllers
@@ -10,17 +12,17 @@ namespace SWAPI.Controllers
     [Route("api/[controller]/[action]")]
     public class SWAPIController : Controller
     {
-        private readonly IPeopleService _peopleService;
+        private readonly IPeopleAppService _peopleAppService;
 
-        public SWAPIController(IPeopleService peopleService)
+        public SWAPIController(IPeopleAppService peopleAppService)
         {
-            _peopleService = peopleService;
+            _peopleAppService = peopleAppService;
         }
 
-        //public async Task<List<People>> ObterPersonagens()
-        //{
-        //    return _peopleService.ObterPersonagens();
-        //}
+        public async Task<List<PeopleViewModel>> ObterPersonagens()
+        {
+            return await _peopleAppService.ObterPersonagens();
+        }
 
 
     }
