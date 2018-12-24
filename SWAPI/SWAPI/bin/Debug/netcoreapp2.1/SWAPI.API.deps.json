@@ -580,6 +580,17 @@
           "SWAPI.Application.dll": {}
         }
       },
+      "SWAPI.Data/1.0.0": {
+        "dependencies": {
+          "SWAPI.Domain": "1.0.0"
+        },
+        "runtime": {
+          "SWAPI.Data.dll": {}
+        },
+        "compile": {
+          "SWAPI.Data.dll": {}
+        }
+      },
       "SWAPI.Domain/1.0.0": {
         "runtime": {
           "SWAPI.Domain.dll": {}
@@ -591,6 +602,7 @@
       "SWAPI.Infra.Cross.IoC/1.0.0": {
         "dependencies": {
           "SWAPI.Application": "1.0.0",
+          "SWAPI.Data": "1.0.0",
           "SimpleInjector.Integration.AspNetCore": "4.4.2"
         },
         "runtime": {
@@ -3759,6 +3771,11 @@
       "hashPath": "system.linq.parallel.4.3.0.nupkg.sha512"
     },
     "SWAPI.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SWAPI.Data/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -6,14 +6,14 @@ namespace SWAPI.Domain.Interfaces.Interface
 {
     public interface IRepository<TEntity> : IDisposable where TEntity : class
     {
-        void Incluir(TEntity entity);
+        //void Incluir(TEntity entity);
 
-        void Excluir(Object id);
+        //void Excluir(Object id);
 
-        void Alterar(TEntity entity);
+        //void Alterar(TEntity entity);
 
-        IEnumerable<TEntity> Listar();
+        //IEnumerable<TEntity> Listar();
 
-        TEntity Obter(Object id);
+        //TEntity Obter(Object id);
     }
 }

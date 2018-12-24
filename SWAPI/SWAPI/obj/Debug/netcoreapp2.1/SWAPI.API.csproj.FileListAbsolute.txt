@@ -19,3 +19,5 @@ C:\Users\Felipe\Documents\Projetos Particulares\SWAPI\SWAPI\SWAPI\obj\Debug\netc
 C:\Users\Felipe\Documents\Projetos Particulares\SWAPI\SWAPI\SWAPI\obj\Debug\netcoreapp2.1\SWAPI.API.csproj.CopyComplete
 C:\Users\Felipe\Documents\Projetos Particulares\SWAPI\SWAPI\SWAPI\obj\Debug\netcoreapp2.1\SWAPI.API.dll
 C:\Users\Felipe\Documents\Projetos Particulares\SWAPI\SWAPI\SWAPI\obj\Debug\netcoreapp2.1\SWAPI.API.pdb
+C:\Users\Felipe\Documents\Projetos Particulares\SWAPI\SWAPI\SWAPI\bin\Debug\netcoreapp2.1\SWAPI.Data.dll
+C:\Users\Felipe\Documents\Projetos Particulares\SWAPI\SWAPI\SWAPI\bin\Debug\netcoreapp2.1\SWAPI.Data.pdb

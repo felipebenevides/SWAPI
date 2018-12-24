@@ -518,6 +518,19 @@
           "bin/placeholder/SWAPI.Application.dll": {}
         }
       },
+      "SWAPI.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "SWAPI.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SWAPI.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SWAPI.Data.dll": {}
+        }
+      },
       "SWAPI.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
@@ -1842,6 +1855,11 @@
       "path": "../SWAPI.Application/SWAPI.Application.csproj",
       "msbuildProject": "../SWAPI.Application/SWAPI.Application.csproj"
     },
+    "SWAPI.Data/1.0.0": {
+      "type": "project",
+      "path": "../SWAPI.Data/SWAPI.Data.csproj",
+      "msbuildProject": "../SWAPI.Data/SWAPI.Data.csproj"
+    },
     "SWAPI.Domain/1.0.0": {
       "type": "project",
       "path": "../SWAPI.Domain/SWAPI.Domain.csproj",
@@ -1852,6 +1870,7 @@
     ".NETCoreApp,Version=v2.1": [
       "Microsoft.NETCore.App >= 2.1.0",
       "SWAPI.Application >= 1.0.0",
+      "SWAPI.Data >= 1.0.0",
       "SimpleInjector.Integration.AspNetCore >= 4.4.2"
     ]
   },
@@ -1887,6 +1906,9 @@
           "projectReferences": {
             "C:\\Users\\Felipe\\Documents\\Projetos Particulares\\SWAPI\\SWAPI\\SWAPI.Application\\SWAPI.Application.csproj": {
               "projectPath": "C:\\Users\\Felipe\\Documents\\Projetos Particulares\\SWAPI\\SWAPI\\SWAPI.Application\\SWAPI.Application.csproj"
+            },
+            "C:\\Users\\Felipe\\Documents\\Projetos Particulares\\SWAPI\\SWAPI\\SWAPI.Data\\SWAPI.Data.csproj": {
+              "projectPath": "C:\\Users\\Felipe\\Documents\\Projetos Particulares\\SWAPI\\SWAPI\\SWAPI.Data\\SWAPI.Data.csproj"
             }
           }
         }

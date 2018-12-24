@@ -9,6 +9,7 @@
       "SWAPI.Infra.Cross.IoC/1.0.0": {
         "dependencies": {
           "SWAPI.Application": "1.0.0",
+          "SWAPI.Data": "1.0.0",
           "SimpleInjector.Integration.AspNetCore": "4.4.2"
         },
         "runtime": {
@@ -237,12 +238,29 @@
           "SWAPI.Application.dll": {}
         }
       },
+      "SWAPI.Data/1.0.0": {
+        "dependencies": {
+          "SWAPI.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "2.1.1.0"
+        },
+        "runtime": {
+          "SWAPI.Data.dll": {}
+        }
+      },
       "SWAPI.Domain/1.0.0": {
         "dependencies": {
           "Newtonsoft.Json": "11.0.0.0"
         },
         "runtime": {
           "SWAPI.Domain.dll": {}
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Reference/2.1.1.0": {
+        "runtime": {
+          "Microsoft.EntityFrameworkCore.dll": {
+            "assemblyVersion": "2.1.1.0",
+            "fileVersion": "2.1.1.18157"
+          }
         }
       },
       "Newtonsoft.Json.Reference/11.0.0.0": {
@@ -441,8 +459,18 @@
       "serviceable": false,
       "sha512": ""
     },
+    "SWAPI.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "SWAPI.Domain/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.EntityFrameworkCore.Reference/2.1.1.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     },

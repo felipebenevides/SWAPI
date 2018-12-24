@@ -17,5 +17,6 @@ namespace SWAPI.Domain.Interfaces.Service
         IEnumerable<TEntity> Listar();
 
         TEntity Obter(Object id);
+
     }
 }

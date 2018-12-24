@@ -10,6 +10,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\SWAPI.Application\SWAPI.Application.csproj" />
+    <ProjectReference Include="..\SWAPI.Data\SWAPI.Data.csproj" />
   </ItemGroup>
 
 </Project>

@@ -14,3 +14,7 @@ C:\Users\Felipe\Documents\Projetos Particulares\SWAPI\SWAPI\SWAPI.Infra.Cross.Io
 C:\Users\Felipe\Documents\Projetos Particulares\SWAPI\SWAPI\SWAPI.Infra.Cross.IoC\obj\Debug\netcoreapp2.1\SWAPI.Infra.Cross.IoC.csproj.CopyComplete
 C:\Users\Felipe\Documents\Projetos Particulares\SWAPI\SWAPI\SWAPI.Infra.Cross.IoC\obj\Debug\netcoreapp2.1\SWAPI.Infra.Cross.IoC.dll
 C:\Users\Felipe\Documents\Projetos Particulares\SWAPI\SWAPI\SWAPI.Infra.Cross.IoC\obj\Debug\netcoreapp2.1\SWAPI.Infra.Cross.IoC.pdb
+C:\Users\Felipe\Documents\Projetos Particulares\SWAPI\SWAPI\SWAPI.Infra.Cross.IoC\bin\Debug\netcoreapp2.1\SWAPI.Data.dll
+C:\Users\Felipe\Documents\Projetos Particulares\SWAPI\SWAPI\SWAPI.Infra.Cross.IoC\bin\Debug\netcoreapp2.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Felipe\Documents\Projetos Particulares\SWAPI\SWAPI\SWAPI.Infra.Cross.IoC\bin\Debug\netcoreapp2.1\SWAPI.Data.pdb
+C:\Users\Felipe\Documents\Projetos Particulares\SWAPI\SWAPI\SWAPI.Infra.Cross.IoC\bin\Debug\netcoreapp2.1\Microsoft.EntityFrameworkCore.xml
