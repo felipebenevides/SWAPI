@@ -1,0 +1,14 @@
+C:\Users\Felipe\Documents\Projetos Particulares\SWAPI\SWAPI\SWAPI.Application\bin\Debug\netcoreapp2.1\SWAPI.Application.deps.json
+C:\Users\Felipe\Documents\Projetos Particulares\SWAPI\SWAPI\SWAPI.Application\bin\Debug\netcoreapp2.1\SWAPI.Application.dll
+C:\Users\Felipe\Documents\Projetos Particulares\SWAPI\SWAPI\SWAPI.Application\bin\Debug\netcoreapp2.1\SWAPI.Application.pdb
+C:\Users\Felipe\Documents\Projetos Particulares\SWAPI\SWAPI\SWAPI.Application\bin\Debug\netcoreapp2.1\SWAPI.Domain.dll
+C:\Users\Felipe\Documents\Projetos Particulares\SWAPI\SWAPI\SWAPI.Application\bin\Debug\netcoreapp2.1\Newtonsoft.Json.dll
+C:\Users\Felipe\Documents\Projetos Particulares\SWAPI\SWAPI\SWAPI.Application\bin\Debug\netcoreapp2.1\SWAPI.Domain.pdb
+C:\Users\Felipe\Documents\Projetos Particulares\SWAPI\SWAPI\SWAPI.Application\bin\Debug\netcoreapp2.1\Newtonsoft.Json.xml
+C:\Users\Felipe\Documents\Projetos Particulares\SWAPI\SWAPI\SWAPI.Application\obj\Debug\netcoreapp2.1\SWAPI.Application.csprojAssemblyReference.cache
+C:\Users\Felipe\Documents\Projetos Particulares\SWAPI\SWAPI\SWAPI.Application\obj\Debug\netcoreapp2.1\SWAPI.Application.csproj.CoreCompileInputs.cache
+C:\Users\Felipe\Documents\Projetos Particulares\SWAPI\SWAPI\SWAPI.Application\obj\Debug\netcoreapp2.1\SWAPI.Application.AssemblyInfoInputs.cache
+C:\Users\Felipe\Documents\Projetos Particulares\SWAPI\SWAPI\SWAPI.Application\obj\Debug\netcoreapp2.1\SWAPI.Application.AssemblyInfo.cs
+C:\Users\Felipe\Documents\Projetos Particulares\SWAPI\SWAPI\SWAPI.Application\obj\Debug\netcoreapp2.1\SWAPI.Application.csproj.CopyComplete
+C:\Users\Felipe\Documents\Projetos Particulares\SWAPI\SWAPI\SWAPI.Application\obj\Debug\netcoreapp2.1\SWAPI.Application.dll
+C:\Users\Felipe\Documents\Projetos Particulares\SWAPI\SWAPI\SWAPI.Application\obj\Debug\netcoreapp2.1\SWAPI.Application.pdb
